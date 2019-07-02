@@ -1,0 +1,11 @@
+{
+  "name": "node-video-tool",
+  "version":"0.0.1",
+  "main":"./src/scripts",
+  "bin":{"node-video-tool":"./bin/index.js"},
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2"
+  }
+}
